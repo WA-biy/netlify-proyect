@@ -1,0 +1,70 @@
+img{
+    border: solid;
+
+  }
+  .bak{
+    background-image: url(palmeras_playa.jpeg);
+    background-size: 50%;
+
+  }
+  .tab{
+    margin: 70px;
+    border: solid white 10px;
+    background-image: url(palmeras_playa.jpeg);
+    background-size: cover;
+    padding: 10px;
+  }
+  #principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+  .tit1{
+    color: red;
+
+  }
+  .tit2{
+    color: blue;
+  }
+  .tit3{
+    color: purple;
+  }
+  .uno{
+    display: flex;
+    margin: 0px;
+    flex-direction: row;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+  }
+  #dos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #6b5b6b;
+    border-radius: 5%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+  }
+  #tres{
+    display: flex;
+    justify-content: space-around ;
+    flex-direction: column;
+    background-color:  #586B6F;
+  }
+  #cuatro{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #556c58;
+    border-radius: 5%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+  }
+  #final{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+  }
